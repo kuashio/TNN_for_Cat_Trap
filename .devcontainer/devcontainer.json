@@ -27,6 +27,8 @@
 		"ms-python.python",
 		"ms-python.vscode-pylance"
 	],
+	"postCreateCommand": "pip install -r python-app/requirements.txt",
+	"postStartCommand": "code --install-extension /workspace/extensions/cat-trap-game-ui-0.0.1.vsix",
 	"remoteUser": "vscode",
 	"onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc" //Set Terminal Prompt to $
 }
